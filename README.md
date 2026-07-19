@@ -9,13 +9,13 @@
 
 <br>
 
-[![TurkishMMLU](https://img.shields.io/badge/TurkishMMLU-%25_69.7_🥇-2ea043?style=for-the-badge)](#-değerlendirme--evaluation)
+[![Hugging Face](https://img.shields.io/badge/🤗_Model-ecloudtech%2FErk--14B-ffcc00?style=for-the-badge)](https://huggingface.co/ecloudtech/Erk-14B)
+[![TurkishMMLU](https://img.shields.io/badge/TurkishMMLU-%25_69.7-2ea043?style=for-the-badge)](degerlendirme/turkishmmlu.md)
 [![Parametre](https://img.shields.io/badge/Parametre-14B-2563eb?style=for-the-badge)](#)
-[![Dil](https://img.shields.io/badge/Dil-Türkçe-e30a17?style=for-the-badge)](#)
 
 **Açık Türkçe modeller arasında TurkishMMLU birincisi**
 
-[Türkçe](#türkçe) · [English](#english) · [eCloud Tech.](https://www.e-cloud.web.tr)
+[Modeli indir (🤗)](https://huggingface.co/ecloudtech/Erk-14B) · [Türkçe](#türkçe) · [English](#english) · [eCloud Tech.](https://www.e-cloud.web.tr)
 
 </div>
 
@@ -37,16 +37,16 @@ Erk bu yaklaşımı tersine çevirir. **Türkçe-native bir tokenizer**, **Türk
 ön-eğitim** ve **gerçek belgelerle beslenen talimat ayarı** ile Erk, Türkçe'yi bir
 ikinci dil olarak değil, ana dili olarak öğrenir.
 
-### 🏆 Değerlendirme — Evaluation
+### Değerlendirme — Evaluation
 
 Erk, bağımsız ve kamuya açık **TurkishMMLU** kıyaslamasında (9 ders, 0-shot doğruluk)
 test edilen açık Türkçe modellerin **en iyisidir.**
 
 | Sıra | Model | Ölçek | TurkishMMLU |
 |:--:|:---|:--:|:--:|
-| 🥇 | **Erk** | **14B** | **%69,7** |
-| 🥈 | Qwen3 | 14B | %63,4 |
-| 🥉 | Trendyol Asure | 12B | %60,9 |
+| | **Erk** | **14B** | **%69,7** |
+| | Qwen3 | 14B | %63,4 |
+| | Trendyol Asure | 12B | %60,9 |
 | 4 | Turkish-Gemma (YTÜ) | 9B | %60,4 |
 | 5 | Trendyol v4 | 7B | %53,0 |
 | 6 | Kumru (VNGRS) | 2B | %20,1 |
@@ -64,6 +64,8 @@ test edilen açık Türkçe modellerin **en iyisidir.**
 > **Metodoloji:** Tüm sonuçlar `lm-evaluation-harness` ile, bağımsız ve kamuya açık
 > TurkishMMLU test setinde, 0-shot koşulunda ölçülmüştür. Karşılaştırılan tüm modeller
 > aynı koşullarda değerlendirilmiş ve şeffaf biçimde birlikte raporlanmıştır.
+
+Tüm ders skorları ve metodoloji: [`degerlendirme/turkishmmlu.md`](degerlendirme/turkishmmlu.md)
 
 ### Neden Erk verimli? — Tokenizer
 
@@ -165,7 +167,7 @@ türev çalışmalar (ince ayar, uyarlama) geliştirebilir.
 **Ticari kullanım** — Erk'in veya türevlerinin bir ürün, hizmet ya da gelir getirici
 faaliyette kullanılması — eCloud Yazılım Teknolojileri'nden yazılı izin gerektirir.
 
-📧 Ticari kullanım ve iş birliği: **info@e-cloud.web.tr**
+Ticari kullanım ve iş birliği: **info@e-cloud.web.tr**
 
 ### Sırada: Erk-32B
 
@@ -200,16 +202,16 @@ Erk reverses this. With a **Turkish-native tokenizer**, **pretraining on a Turki
 corpus**, and **instruction tuning grounded in real documents**, Erk learns Turkish as a
 first language — not a second.
 
-### 🏆 Evaluation
+### Evaluation
 
 On the independent, public **TurkishMMLU** benchmark (9 subjects, 0-shot accuracy),
 Erk is **the best of the open Turkish models tested.**
 
 | Rank | Model | Size | TurkishMMLU |
 |:--:|:---|:--:|:--:|
-| 🥇 | **Erk** | **14B** | **69.7%** |
-| 🥈 | Qwen3 | 14B | 63.4% |
-| 🥉 | Trendyol Asure | 12B | 60.9% |
+| | **Erk** | **14B** | **69.7%** |
+| | Qwen3 | 14B | 63.4% |
+| | Trendyol Asure | 12B | 60.9% |
 | 4 | Turkish-Gemma | 9B | 60.4% |
 | 5 | Trendyol v4 | 7B | 53.0% |
 | 6 | Kumru | 2B | 20.1% |
@@ -279,7 +281,7 @@ print(tokenizer.decode(out[0][inputs.input_ids.shape[1]:], skip_special_tokens=T
 Erk is **open source**: anyone may download, run, study and build derivatives.
 **Commercial use** requires written permission from eCloud Yazılım Teknolojileri.
 
-📧 Commercial use & partnerships: **info@e-cloud.web.tr**
+Commercial use & partnerships: **info@e-cloud.web.tr**
 
 The full training recipe is open at
 [nanosohbet](https://github.com/ecloudtechnology/nanosohbet).
