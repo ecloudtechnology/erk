@@ -1,0 +1,70 @@
+eCloud Açık Topluluk Lisansı v1.0
+eCloud Open Community License v1.0
+
+Copyright (c) 2026 eCloud Yazılım Teknolojileri. Tüm hakları saklıdır.
+
+================================================================================
+TÜRKÇE
+================================================================================
+
+Bu lisans, "Erk" adlı yapay zekâ modeli ve ilgili ağırlıklar, kod ve
+belgeleri ("Materyaller") için geçerlidir.
+
+1. VERİLEN İZİNLER (Ücretsiz)
+   Aşağıdaki kullanımlar için ücretsiz ve serbest izin verilir:
+   a) Materyalleri indirmek, çalıştırmak ve incelemek;
+   b) Araştırma, eğitim ve kişisel amaçlarla kullanmak;
+   c) Materyaller üzerinde değişiklik yapmak, türev çalışmalar (ince ayar,
+      uyarlama vb.) geliştirmek;
+   d) Değişiklikleri ve türev çalışmaları, bu lisansın koşullarıyla birlikte
+      ve kaynağı (Erk / eCloud Yazılım Teknolojileri) belirterek paylaşmak.
+
+2. TİCARİ KULLANIM
+   Materyallerin veya türevlerinin ticari bir ürün, hizmet ya da gelir getirici
+   faaliyette kullanılması, eCloud Yazılım Teknolojileri'nden önceden yazılı izin
+   alınmasını gerektirir. Ticari kullanım için iletişim: info@e-cloud.web.tr
+
+3. ATIF
+   Materyalleri kullanan tüm çalışmalar, "Erk — eCloud Yazılım Teknolojileri"
+   ifadesine ve bu depoya atıfta bulunmalıdır.
+
+4. TİCARİ HAKLAR
+   Materyallere ilişkin tüm ticari haklar eCloud Yazılım Teknolojileri'ne aittir.
+   Bu lisans, marka, ticari unvan veya patent hakkı devri anlamına gelmez.
+
+5. GARANTİ REDDİ
+   Materyaller "OLDUĞU GİBİ" sağlanır; açık ya da örtük hiçbir garanti verilmez.
+   eCloud Yazılım Teknolojileri, kullanımdan doğabilecek zararlardan sorumlu değildir.
+
+================================================================================
+ENGLISH
+================================================================================
+
+This license applies to the "Erk" AI model and its associated weights, code and
+documentation (the "Materials").
+
+1. PERMISSIONS (Free of charge)
+   The following uses are permitted free of charge:
+   a) downloading, running and studying the Materials;
+   b) use for research, educational and personal purposes;
+   c) modifying the Materials and creating derivative works (fine-tuning,
+      adaptation, etc.);
+   d) sharing modifications and derivatives under the terms of this license,
+      with attribution to the source (Erk / eCloud Yazılım Teknolojileri).
+
+2. COMMERCIAL USE
+   Any use of the Materials or their derivatives in a commercial product, service
+   or revenue-generating activity requires prior written permission from
+   eCloud Yazılım Teknolojileri. For commercial use, contact: info@e-cloud.web.tr
+
+3. ATTRIBUTION
+   All works using the Materials must credit "Erk — eCloud Yazılım Teknolojileri"
+   and reference this repository.
+
+4. COMMERCIAL RIGHTS
+   All commercial rights to the Materials remain with eCloud Yazılım Teknolojileri.
+   This license does not transfer any trademark, trade name or patent rights.
+
+5. DISCLAIMER
+   The Materials are provided "AS IS", without warranty of any kind. eCloud
+   Yazılım Teknolojileri is not liable for any damages arising from their use.
