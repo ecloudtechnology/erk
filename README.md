@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🦅 Erk
+# Erk
 
 ### Türkçe için sıfırdan geliştirilmiş yapay zekâ modeli
 
