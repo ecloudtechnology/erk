@@ -285,6 +285,12 @@ Commercial use & partnerships: **info@e-cloud.web.tr**
 The full training recipe is open at
 [nanosohbet](https://github.com/ecloudtechnology/nanosohbet).
 
+### Teşekkür · Acknowledgements
+
+Erk'in eğitim ve değerlendirme süreçleri, **AI EDIH Türkiye** projesi kapsamında tahsis edilen kaynaklarla İstanbul Teknik Üniversitesi **Ulusal Yüksek Başarımlı Hesaplama Merkezi (UHeM)** altyapısında yürütülmüştür. Değerli destekleri için UHeM ekibine ve AI EDIH Türkiye konsorsiyumuna teşekkür ederiz.
+
+*Erk was trained and evaluated on the infrastructure of the National Center for High Performance Computing (UHeM) at Istanbul Technical University, with resources allocated under the **AI EDIH Türkiye** programme. We thank the UHeM team and the AI EDIH Türkiye consortium for their support.*
+
 ---
 
 <div align="center">
