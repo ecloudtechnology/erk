@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: "Erk-14B: A Turkish language model"
+message: "If you use this model, please cite it as below."
+type: software
+authors:
+  - name: "eCloud Tech."
+    website: "https://www.e-cloud.web.tr"
+    city: "Şanlıurfa"
+    country: TR
+repository-code: "https://github.com/ecloudtechnology/erk"
+url: "https://huggingface.co/ecloudtech/Erk-14B"
+abstract: >-
+  Erk-14B is a Turkish language model built on Qwen3-14B through Turkish
+  continued pretraining and instruction tuning on real documents. It scores
+  69.7% on TurkishMMLU (0-shot, 9 subjects), raising the base model from 63.4%
+  and ranking first among open Turkish models at the time of release. The model
+  targets Turkish morphology — root and suffix structure — rather than treating
+  Turkish as a foreign language to be segmented character by character.
+keywords:
+  - turkish-nlp
+  - large-language-models
+  - turkish
+  - qwen3
+  - instruction-tuning
+  - continued-pretraining
+license-url: "https://github.com/ecloudtechnology/erk/blob/main/LICENSE"
+version: "1.0"
+date-released: "2026-07-29"
