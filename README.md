@@ -4,6 +4,8 @@
 
 ### Türkçe için geliştirilmiş yapay zekâ modeli
 
+> **Ek ölçüm (Eylül 2026):** kirlilik dışı bırakılmış, şık döndürmeli protokolde Erk-14B **%67,18**, Qwen3-14B %60,58 (+6,60 [+3,07, +10,28]); yukarıdaki %69,7 tam küme 0-shot ölçümüdür. Ayrıntı: [degerlendirme/turkishmmlu.md](degerlendirme/turkishmmlu.md) ve [Erk-32B](https://huggingface.co/ecloudtech/Erk-32B).
+
 *Dünya modelleri Türkçe'yi yabancı bir dil gibi harf harf söker.*
 **Erk, dilin kökünü ve eklerini bir bütün olarak anlar.**
 
