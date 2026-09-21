@@ -15,7 +15,7 @@
 [![TurkishMMLU](https://img.shields.io/badge/TurkishMMLU-%25_69.7-2ea043?style=for-the-badge)](degerlendirme/turkishmmlu.md)
 [![Parametre](https://img.shields.io/badge/Parametre-14B-2563eb?style=for-the-badge)](#)
 
-**Açık Türkçe modeller arasında TurkishMMLU birincisi**
+**TurkishMMLU'da kendi temel modelini +6,3 puan geçiyor** — protokol aşağıda
 
 [Modeli indir (🤗)](https://huggingface.co/ecloudtech/Erk-14B) · [Türkçe](#türkçe) · [English](#english) · [eCloud Tech.](https://www.e-cloud.web.tr)
 
@@ -45,17 +45,35 @@ belirgin biçimde ileri taşır.
 
 ### Değerlendirme — Evaluation
 
-Erk, bağımsız ve kamuya açık **TurkishMMLU** kıyaslamasında (9 ders, 0-shot doğruluk)
-test edilen açık Türkçe modellerin **en iyisidir.**
+Kontrol ettiğimiz tek kıyas **kendi temel modelimize karşı** olandır: aynı
+sorular, aynı protokol, aynı ölçüm.
 
-| Sıra | Model | Ölçek | TurkishMMLU |
-|:--:|:---|:--:|:--:|
-| | **Erk** | **14B** | **%69,7** |
-| | Qwen3-14B *(temel model)* | 14B | %63,4 |
-| | Trendyol Asure | 12B | %60,9 |
-| 4 | Turkish-Gemma (YTÜ) | 9B | %60,4 |
-| 5 | Trendyol v4 | 7B | %53,0 |
-| 6 | Kumru (VNGRS) | 2B | %20,1 |
+| Model | TurkishMMLU (9 ders, 0-shot) |
+|:---|:--:|
+| Qwen3-14B *(temel model)* | %63,4 |
+| **Erk-14B** | **%69,7** |
+| **Fark** | **+6,3** |
+
+Daha sıkı protokolde (kirli sorular çıkarılmış, şık döndürmeli, eşli bootstrap)
+aynı karşılaştırma: Qwen3-14B %60,58 · **Erk-14B %67,18** · fark
+**+6,60 [+3,07, +10,28]**. İki protokolde de tabana göre kazanç anlamlıdır.
+
+#### Neden başka modellerle sıralama tablosu yok
+
+Bu belgenin önceki sürümünde diğer açık Türkçe modellerle bir sıralama tablosu ve
+"birincisi" ifadesi vardı. Kaldırdık, çünkü savunulabilir değildi: o sayılar
+başkaları tarafından, başka protokollerle yayımlanmıştı, bizimki kendi
+ölçümümüzdü, hiçbirinde kirlilik denetimi ve güven aralığı yoktu.
+
+Bunun soyut bir titizlik olmadığını kendi ölçümlerimizde gördük. Aynı modelin
+aynı soru kümesindeki puanı **yalnız istem biçimi değişince** oynuyor: Qwen3-32B
+%63,38'den %67,13'e çıktı, başka bir modelde sade istem 15 puan kaybettirdi.
+Bir başka ölçümde, bir çıkarım servisinin sunduğu modelin puanı aynı ağırlıkların
+yerel ölçümünün 26 puan altında çıktı. Bu büyüklükteki oynamalar bir sıralama
+tablosunun sırasını tek başına belirler.
+
+Başka modellerle kıyas yayımlayacaksak onları **kendi protokolümüzle kendimiz**
+ölçmemiz gerekir. O çalışma sürüyor; bitmeden sıra iddiası yazmayacağız.
 
 **Ders bazında Erk:**
 
